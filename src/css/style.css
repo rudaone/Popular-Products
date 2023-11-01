@@ -1,0 +1,114 @@
+html{
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.products{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.products-header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.products-header__title{
+    width: 505px;
+    height: 42px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.products-header__text{
+    width: 505px;
+    height: 65px;
+    text-align: center;
+    font-family: "Roboto";
+    font-style: 1.1rem;
+}
+
+.products-big, .products-small{
+    display: flex;
+    justify-content:space-between;
+}
+.products-big-card, .products-small-card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+}
+
+.products-small-card{
+    margin-top: 66px;
+}
+
+.products-big-cards__picture{
+    width: 555px;
+    height: 420px;
+    background-color: #f8dcbc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.products-big-cards__tittle{
+    width: 555px;
+    height: 68px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: "Poppins";
+    font-style: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.products-small-cards__picture{
+    width: 360px;
+    height: 273px;
+    background-color: #f8dcbc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.products-small-cards__tittle{
+    width: 360px;
+    height: 67px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: "Poppins";
+
+}
+.products-big-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.products-big-cards__button, .products-small-cards__button{
+    text-align: center;
+    border: 0;
+    background: 0;
+    color: orange;
+    font-family:"Roboto";
+}
+
+.products-small-button__all{
+    display: flex;
+    margin-top: 46px;
+    margin: 0 auto;
+    border:1px solid rgb(253, 229, 185);
+    border-radius:5px;
+    background: 0;
+    color:orange;
+    padding: 12px 30px 12px 30px;
+}
