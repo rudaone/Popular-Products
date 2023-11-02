@@ -5,7 +5,7 @@ html{
 
 .products{
     width: 1140px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .products-header{
@@ -31,12 +31,12 @@ html{
     height: 65px;
     text-align: center;
     font-family: "Roboto";
-    font-style: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 400;
     margin-top: 18px;
 }
 
-.products-bigxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx{
+.products-big{
 margin-top: 25px;
 }
 
