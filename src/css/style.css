@@ -13,6 +13,7 @@ html{
     justify-content: center;
     align-items:center;
     flex-direction: column;
+    
 }
 
 .products-header__title{
@@ -22,6 +23,7 @@ html{
     font-family: "Poppins";
     font-size: 2rem;
     letter-spacing: 1px;
+    margin: 0;
 }
 
 .products-header__text{
@@ -30,6 +32,12 @@ html{
     text-align: center;
     font-family: "Roboto";
     font-style: 1.1rem;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.products-bigxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx{
+margin-top: 25px;
 }
 
 .products-big, .products-small{
@@ -104,8 +112,7 @@ html{
 
 .products-small-button__all{
     display: flex;
-    margin-top: 46px;
-    margin: 0 auto;
+    margin: 46px auto;
     border:1px solid rgb(253, 229, 185);
     border-radius:5px;
     background: 0;
